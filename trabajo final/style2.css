@@ -1,0 +1,47 @@
+.nuestros-productos {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.producto {
+    background: rgb(45, 44, 92);
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.producto-blanco {
+    background-color: white;
+    height: 20rem;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.producto-precio,
+.producto-nombre {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.productos .fila .item:hover{
+    background-color: #e6e6e6 ;
+}
+
+.nuestros-productos2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
